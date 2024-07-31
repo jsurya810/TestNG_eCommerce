@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T21:00:23 IST" name="Suite" finished-at="2024-07-31T21:01:24 IST" duration-ms="61278">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T21:00:23 IST" name="Test" finished-at="2024-07-31T21:01:24 IST" duration-ms="61278">
+      <class name="flipkart3.LogIn">
+        <test-method signature="logIn(java.lang.String)[pri:1, instance:flipkart3.LogIn@292b08d6]" started-at="2024-07-31T21:00:23 IST" name="logIn" finished-at="2024-07-31T21:00:55 IST" duration-ms="31691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="chooseProduct()[pri:2, instance:flipkart3.LogIn@292b08d6]" started-at="2024-07-31T21:00:55 IST" name="chooseProduct" finished-at="2024-07-31T21:00:56 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseProduct -->
+        <test-method signature="chooseVariant()[pri:3, instance:flipkart3.LogIn@292b08d6]" started-at="2024-07-31T21:00:56 IST" name="chooseVariant" finished-at="2024-07-31T21:01:06 IST" duration-ms="10650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseVariant -->
+        <test-method signature="payment()[pri:4, instance:flipkart3.LogIn@292b08d6]" started-at="2024-07-31T21:01:06 IST" name="payment" finished-at="2024-07-31T21:01:23 IST" duration-ms="16425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="end()[pri:5, instance:flipkart3.LogIn@292b08d6]" started-at="2024-07-31T21:01:23 IST" name="end" finished-at="2024-07-31T21:01:24 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- flipkart3.LogIn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
