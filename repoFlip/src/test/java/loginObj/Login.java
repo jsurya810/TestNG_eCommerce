@@ -148,7 +148,7 @@ public class Login {
     	String actText= unregWarning.getText();                         //getting warning message
     	Assert.assertEquals("You are not registered with us. Please sign up.", actText);
     	System.out.println(actText);
-   
+        System.out.println("end of login");
     }
    
    
