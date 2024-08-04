@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="emailunreg" value="suryarainaa3@gmail.com"/>
+  <parameter name="mobile" value="9025462778"/>
+  <parameter name="mobunreg" value="8122965265"/>
+  <parameter name="dataInvalid" value="avcg123@qw"/>
+  <parameter name="url" value="https://www.flipkart.com/"/>
+  <parameter name="email" value="mahanatarajan99@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="loginObj.Login">
+        <methods>
+          <include name="login_ValidUsingEmail" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="enterUrl"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- loginObj.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
